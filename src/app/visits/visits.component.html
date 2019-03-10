@@ -1,0 +1,32 @@
+<div id="visit">
+  <div class="div-center">
+    <div class="textVisit">
+      <div *ngIf="visits.length else notContent">
+        <h2>Visitas a serem efetuadas:</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Representante</th>
+              <th>Loja</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let visit of visits">
+              <td>{{visit.nomeRepresentante}}</td>
+              <td>
+                <ul>
+                  <li *ngFor="let recipient of visit.lojasDistancias | keyvalue">
+                    {{recipient.key}} fica à {{recipient.value}} de distância
+                  </li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <ng-template #notContent>
+        <h2>Api de visitas inativa</h2>
+      </ng-template>
+    </div>
+  </div>
+</div>

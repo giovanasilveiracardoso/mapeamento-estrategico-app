@@ -1,0 +1,1 @@
+export const MAPEAMENTO_ESTRATEGICO_API = 'http://localhost:4201/api'

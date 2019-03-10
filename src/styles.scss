@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+ @font-face {
+     font-family: 'Helvetica Inserat LT Std Roman';
+     font-style: normal;
+     font-weight: normal;
+     src: url('/src/assets/fonts/HelveticaInseratLTStd-Roman.woff');
+ }
+ 
+ p,
+ li {
+     font-size: 0.9rem;
+     font-family: Roboto, sans-serif;
+ }
+ 
+ $font-stack: 'Helvetica Inserat LT Std Roman';
+ h1 {
+     font-family: $font-stack;
+ }
+ 
+ h2 {
+     margin-bottom: 5vh;
+     font-family: $font-stack;
+ }
+ 

@@ -1,0 +1,23 @@
+#visit {
+    background-color: #22181c;
+    padding-bottom: 10vh;
+
+    .div-center {
+        margin: auto;
+        width: 70%;
+
+        h2,
+        p, table {
+            color: #ffffff;
+        }
+        table td, table th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .textVisit {
+            padding-top: 10vh;
+        }
+    }
+}
+
+

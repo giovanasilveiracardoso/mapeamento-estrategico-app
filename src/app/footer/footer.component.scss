@@ -1,0 +1,31 @@
+@charset 'utf-8';
+@import '../util.scss';
+
+#footer {
+    background-color: #5a0001;
+    padding: 5vh 0 2vh 0;
+    
+    .div-center {
+        margin: auto;
+        width: 50%;
+
+        #icons {
+            display: flex;
+            justify-content: space-around;
+
+            img {
+                width: 8vh;
+                height: 8vh;
+                margin-left: 1vh;
+            }
+        }
+
+        span {
+            text-align: center;
+            color: #ffffff;
+            font-size: 0.6rem;
+            display: block;
+            margin-top: 10px;
+        }
+    }
+}

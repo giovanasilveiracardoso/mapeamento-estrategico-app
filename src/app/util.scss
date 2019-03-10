@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Helvetica Inserat LT Std Roman';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../assets/fonts/HelveticaInseratLTStd-Roman.woff');
+}
+
+$font-stack: 'Helvetica Inserat LT Std Roman';
+h1 {
+    font-family: $font-stack;
+}
+
+h2 {
+    margin-bottom: 5vh;
+    font-family: $font-stack;
+}
+
+p, li {
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    color: #ffffff;
+}

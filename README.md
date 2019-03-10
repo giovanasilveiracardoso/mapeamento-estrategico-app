@@ -1,27 +1,32 @@
 # MapeamentoEstrategicoApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
+Pré-requisitos:
+---------------
+1 - NodeJs versão 10.15.3 - https://nodejs.org/en/download/:
+Instalação exemplo no linux https://github.com/nodejs/help/wiki/Installation
 
-## Development server
+2 - Angular CLI versão 7.3.5:
+    ``$ npm install -g @angular/cli``
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+3 - Confira a versão instalada:
+    ``$ ng version``
 
-## Code scaffolding
+Executando:
+-------------------
+1 - git clone https://github.com/giovanasilveiracardoso/mapeamento-estrategico-app.git
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2 - Acesse a pasta do projeto:
+    ``$ cd mapeamento-estrategico-app``
 
-## Build
+3 - Instale as dependências:
+    ``$ npm install``
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+4 - Para que os dados apareçam na aplicação é necessário que o serviço do projeto 'https://github.com/giovanasilveiracardoso/mapeamento-estrategico.git' esteja ativo.
 
-## Running unit tests
+5 - Inicialize a aplicação:
+    ``$ ng serve --proxy-config proxy.config.js``
+    '--proxy-config proxy.config.js' é necessário para contornar o erro de CORS no ambiente de desenvolvimento.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+6 - Acesse através do browser:
+	http://localhost:4200/
+	
