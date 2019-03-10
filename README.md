@@ -1,4 +1,4 @@
-# Mapeamento Estrategico App
+# Mapeamento Estratégico App
 
 Este projeto foi criado para mostrar quais lojas cada representante deve visitar com base na distância de no máximo 2 km de suas residências. Uma regra adicionada foi que uma loja não pode ser visitada por mais de um representante.
 
