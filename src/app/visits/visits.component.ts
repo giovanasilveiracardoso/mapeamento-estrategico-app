@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Visit } from './visit/visit.model'
+import { Visit } from './visit/visit.model';
 import { VisitsService } from './visits.service';
 
 @Component({
@@ -10,7 +10,7 @@ import { VisitsService } from './visits.service';
 })
 export class VisitsComponent implements OnInit {
 
-  visits: Visit[] = []
+  visits: Visit[] = [];
 
   constructor(private visitService: VisitsService) { }
 
