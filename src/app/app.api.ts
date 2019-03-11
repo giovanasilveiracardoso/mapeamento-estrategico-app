@@ -1,1 +1,1 @@
-export const MAPEAMENTO_ESTRATEGICO_API = 'http://localhost:4201/api';
+export const MAPEAMENTO_ESTRATEGICO_API = 'http://localhost:4200/api';
